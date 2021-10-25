@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import Quagga from 'quagga';
+import './scanner.css'
  
 const Scanner = (props) => {
  
