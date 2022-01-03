@@ -1,0 +1,52 @@
+
+.item{
+    border: 1px solid black;
+    text-align: center;
+    justify-content: center;
+    width: 15vw;
+    height: 30vh;
+    margin-top: 20px;
+    margin-right: 20px;
+    text-transform: capitalize;
+}
+.itemlist{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.itemlist-cont{
+    width: 50vw;
+}
+button{
+    margin-right: 5px;
+}
+.item-btn{
+    background-color: red;
+    color: white;
+}
+.item-link{
+    text-decoration: none;
+    color: white;
+}
+.create-cont{
+    width: 50vw;
+    height: 30vh;
+    margin-left: 40px;
+}
+.create-form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 5vh;
+}
+.create-input{
+    width: 50%;
+}
+.create-btn{
+    margin-top: 20px;
+    background-color: green;
+    color: white;
+    width: 51%;
+    height: 40px;
+    font-size: 20px;
+}
